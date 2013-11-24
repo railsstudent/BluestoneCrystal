@@ -183,7 +183,7 @@ containing a value of this type.
         public static final int common_signin_btn_text_normal_light=0x7f020016;
         public static final int common_signin_btn_text_pressed_dark=0x7f020017;
         public static final int common_signin_btn_text_pressed_light=0x7f020018;
-        public static final int darkgray=0x7f020030;
+        public static final int darkgray=0x7f020031;
         public static final int ic_contact=0x7f020019;
         public static final int ic_facebook=0x7f02001a;
         public static final int ic_launcher=0x7f02001b;
@@ -199,14 +199,15 @@ containing a value of this type.
         public static final int img_globe=0x7f020025;
         public static final int img_hour=0x7f020026;
         public static final int img_no_photo=0x7f020027;
-        public static final int img_refresh=0x7f020028;
-        public static final int img_right_arrow=0x7f020029;
-        public static final int img_send_email=0x7f02002a;
-        public static final int img_share=0x7f02002b;
-        public static final int img_stub=0x7f02002c;
-        public static final int pin=0x7f02002d;
-        public static final int solo_building2=0x7f02002e;
-        public static final int splash=0x7f02002f;
+        public static final int img_phone2=0x7f020028;
+        public static final int img_refresh=0x7f020029;
+        public static final int img_right_arrow=0x7f02002a;
+        public static final int img_send_email=0x7f02002b;
+        public static final int img_share=0x7f02002c;
+        public static final int img_stub=0x7f02002d;
+        public static final int pin=0x7f02002e;
+        public static final int solo_building2=0x7f02002f;
+        public static final int splash=0x7f020030;
     }
     public static final class id {
         public static final int LinearLayout1=0x7f05000b;
