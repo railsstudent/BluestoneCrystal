@@ -44,16 +44,14 @@ public class SplashActivity extends Activity {
 //				finish();
 //			}
 //		}, SPLASH_TIMEOUT);
-		if (savedInstanceState == null) {
-			//Toast.makeText(this, "SplashActivity - onCreate", Toast.LENGTH_SHORT).show();
-			cmsUrl = getString(R.string.cms_url);
-			ConnectionDetector detector = new ConnectionDetector(this);
-			if (detector.isConnectingToInternet()) {
-	  		    startNewAsyncTask();
-			} else {
-				setContentView(R.layout.activity_splash);
-				showNoInternetDialogStartActivity(this);
-			}
+
+		cmsUrl = getString(R.string.cms_url);
+		ConnectionDetector detector = new ConnectionDetector(this);
+		if (detector.isConnectingToInternet()) {
+  		    startNewAsyncTask();
+		} else {
+			setContentView(R.layout.activity_splash);
+			showNoInternetDialogStartActivity(this);
 		}
 	}
 	

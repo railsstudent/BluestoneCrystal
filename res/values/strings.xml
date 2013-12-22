@@ -18,8 +18,8 @@
     <string name="tell_a_friend">告訴朋友</string>
     <string name="choose_share_app">選擇分享程式</string>
     <string name="choose_email_app">選擇電郵程式</string>
-    <string name="email_app_not_installed">電子郵件程式沒有安裝。</string>
-    <string name="share_app_not_installed">分享應用程式沒有安裝。</string>
+    <string name="share_app_not_installed">電子郵件程式沒有安裝。</string>
+    <string name="email_app_not_installed">分享應用程式沒有安裝。</string>
     <string name="email_subject">查詢</string>
     <string name="share_subject">我想與你分享此網頁</string>
     <string name="email_text">查詢</string>
