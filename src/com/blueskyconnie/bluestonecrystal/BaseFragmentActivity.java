@@ -2,6 +2,8 @@ package com.blueskyconnie.bluestonecrystal;
 
 import com.nostra13.universalimageloader.core.ImageLoader;
 
+import android.app.ActionBar;
+import android.os.Bundle;
 import android.support.v4.app.FragmentActivity;
 import android.util.Log;
 import android.view.Menu;
@@ -10,6 +12,14 @@ import android.view.MenuItem;
 public abstract class BaseFragmentActivity extends FragmentActivity {
 
 	protected ImageLoader imageLoader = ImageLoader.getInstance();
+	protected ActionBar actionBar;
+	
+	@Override
+	protected void onCreate(Bundle bundle) {
+		super.onCreate(bundle);
+		actionBar = getActionBar();
+		actionBar.setNavigationMode(ActionBar.NAVIGATION_MODE_TABS);
+	}
 
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {

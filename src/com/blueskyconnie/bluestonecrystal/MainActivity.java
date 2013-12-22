@@ -5,7 +5,6 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Locale;
 
-import android.app.ActionBar;
 import android.app.ActionBar.Tab;
 import android.app.ActionBar.TabListener;
 import android.app.FragmentTransaction;
@@ -50,7 +49,7 @@ public class MainActivity extends BaseFragmentActivity implements
 
 	private static final String CURRENT_TAG_KEY = "current_tag";
 
-	private ActionBar actionBar;
+	//private ActionBar actionBar;
 	private ViewPager viewPager;
 	private TabspagerAdapter pageAdapter;
 	private List<Fragment> lstFragment = new ArrayList<Fragment>();
@@ -69,7 +68,7 @@ public class MainActivity extends BaseFragmentActivity implements
 		
 		requestWindowFeature(Window.FEATURE_PROGRESS);
 		setContentView(R.layout.activity_main);
-		actionBar = getActionBar();
+	//	actionBar = getActionBar();
 		
 		// initialize viewpager
 		viewPager = (ViewPager) findViewById(R.id.pager);
@@ -82,7 +81,7 @@ public class MainActivity extends BaseFragmentActivity implements
 		lstFragment.add(new ContactFragment());
 		pageAdapter = new TabspagerAdapter(getSupportFragmentManager(), lstFragment);
 		viewPager.setAdapter(pageAdapter);
-		actionBar.setNavigationMode(ActionBar.NAVIGATION_MODE_TABS);
+//		actionBar.setNavigationMode(ActionBar.NAVIGATION_MODE_TABS);
 		
 		/**
 		 * on swiping the viewpager make respective tab selected
